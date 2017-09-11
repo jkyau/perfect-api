@@ -1,0 +1,26 @@
+{
+  "name": "walmart-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkyau/walmart-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkyau/walmart-api/issues"
+  },
+  "homepage": "https://github.com/jkyau/walmart-api#readme",
+  "dependencies": {
+    "hapi": "^16.4.3"
+  },
+  "scripts": {
+    "test": "ava --verbose test/*.js"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "nyc": "^11.1.0"
+  }
+}
